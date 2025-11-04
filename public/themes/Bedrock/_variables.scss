@@ -1,0 +1,52 @@
+// _variables.scss
+// Bedrock Coin Theme – SCSS Variables for Bootstrap 5
+
+// Fuente
+$font-family-sans-serif:      'Source Sans Pro', sans-serif;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            var(--#{$prefix}font-sans-serif);
+
+// Títulos
+$headings-font-family:        'Montserrat', sans-serif;
+$headings-font-weight:        700;
+
+// Colores principales
+$primary:        #007BFF; // Azul Eléctrico
+$secondary:      #004690; // Azul Oscuro
+$success:        #4D9FFF; // Azul Claro
+$info:           #1AFFFF; // Azul/Cian Neón (usado como "info" o "accent")
+$warning:        #FFC107;
+$danger:         #DC3545;
+$light:          #F5F5F5;
+$dark:           #0A0A0A;
+
+// Fondo y texto
+$body-bg:        $dark;
+$body-color:     #F5F5F5;
+$border-color:   rgba(26, 255, 255, 0.4);
+
+// Sombras y transiciones
+$enable-shadows: true;
+$transition-base: all 0.3s ease;
+
+// Radio de bordes
+$border-radius:        8px;
+$border-radius-lg:     36px; // para navbar
+$border-radius-sm:     4px;
+
+// Enlaces
+$link-color:           $primary;
+$link-hover-color:     $info;
+
+// Botones
+$btn-font-weight:      600;
+$btn-border-radius:    50px;
+$btn-border-radius-sm: 12px;
+$btn-border-radius-lg: 50px;
+
+// Z-index
+$zindex-fixed:         1000;
+$zindex-sticky:        999;
+
+// Transparencia
+$surface: rgba(0, 123, 255, 0.15);
